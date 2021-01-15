@@ -19,23 +19,49 @@
   🔲 Add a form
  -->
 <body>
-  <h1 class="text-2xl text-purple-500 font-bold text-center m-8">Welcome to the best product ever</h1>
+  <h1 class="px-8 py-2 border-2 border-purple-500 text-2xl text-purple-400 font-bold text-center m-8">Welcome to the best product ever</h1>
   
   <div class="px-16 md:flex bg-gray-100 items-center">
     
     <div class="md:w-1/2 md:p-16 py-8">
       <img class="rounded-xl" src="https://images.unsplash.com/photo-1565443492615-7e3d2324d925?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80">
     </div>
+    <div class="space-x-8 space-y-8"></div>
+<div class="flex">
+      <h1 class="m-5 px-8 py-4 w-1/2 border-4 border-purple-500 rounded-xl text-purple-500 font-bold">Hello</h1>
+      
+      <div class="m-5 space-y-4 w-1/2">
+        <p>Some more words</p>
+        <p>Yet some more words</p>
+        <p>Yet some more words</p>
+        </p>
+      </div>
 
-    <div class="md:w-1/2 md:p-16 py-8 space-y-4">
-      <h2 class="font-bold text-xl">It's Revolutionary.</h2>
-      <p>It's more revolutionary than <a href="http://google.com/">Google.</a></p>
-      <h2 class="font-bold text-xl">It's Life-Changing.</h2>
-      <p>You'll wonder how you lived without it.</p>
-      <h2 class="font-bold text-xl">It's Free.</h2>
-      <p>In fact, we'll pay you.</p>
-    </div>
+      <div class="md:w-1/2 md:p-16 py-8 space-y-4">
+        <h2 class="font-bold text-xl">It's Revolutionary.</h2>
+        <p>It's more revolutionary than <a href="http://google.com/">Google.</a></p>
+        <h2 class="font-bold text-xl">It's Life-Changing.</h2>
+        <p>You'll wonder how you lived without it.</p>
+        <h2 class="font-bold text-xl">It's Free.</h2>
+        <p>In fact, we'll pay you.</p>
+      </div>
   </div>
+</div>
+
+<div class="m-8 w-1/2 mx-auto">
+  <form action="https://maps.google.com/">
+    <!-- <label for="name">Name</label>
+    <input class="border" type="text" id="name" name="name">
+
+    <label for="email-address">Email Address</label>
+    <input class="border" type="text" id="email-address" name="email"> -->
+
+    <label for="where-to">Where to?</label>
+    <input class="border" type="text" id="where-to" name="q">
+    
+  <button class="bg-green-500 text-white px-4 py-2">Submit!</button>
+  </form>
+</div>
 </body>
 </html>
 
